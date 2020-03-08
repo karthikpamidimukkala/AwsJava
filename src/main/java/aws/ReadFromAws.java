@@ -19,7 +19,7 @@ public class ReadFromAws {
 
     public static void main(String[] args) {
 
-        AWSCredentials credentials = new BasicAWSCredentials("AKIAYUTYSIJXDE4AUWFG", "10YSLoHMTmVcq/6/OdFmwKD28NyLRrnAwhDl2t+b");
+        AWSCredentials credentials = new BasicAWSCredentials("XXXXXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXXXXXXXX");
         AmazonS3 s3client = AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(credentials))
                 .withRegion(Regions.US_EAST_1)
                 .build();
